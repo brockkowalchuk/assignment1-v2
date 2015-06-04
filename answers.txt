@@ -1,0 +1,12 @@
+1. /Users/brockkowalchuk/Documents/cc-mrjob/out
+2. All Buckets/w205-2015-bk-1/emr-out
+3. local
+	real	2m48.323s
+	user	2m42.125s
+	sys	0m2.967s
+   EMR
+	real	26m40.557s
+	user	0m3.101s
+	sys	0m0.347s
+4. I used the test-1.warc so only one address was included (I think if one went through all the files there would be 306?)
+5. the files are the same now but not initially. the output in AWS was broken up across several files so i downloaded all, concatenated them, and sorted alphabetically to align with format from local output. once I ran the ‘diff’ command in terminal, no deltas were displayed.
